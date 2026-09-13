@@ -12,6 +12,8 @@ create table if not exists public.messages (
 alter table public.messages enable row level security;
 
 -- Replace this temporary room policy with Supabase Auth user policies before publishing.
+-- The two approved accounts are: mubshiybm@gmail.com and haleemah@gmail.com.
+-- Production policies should check auth.jwt() ->> 'email' against this allowlist.
 create policy "private room can read" on public.messages for select using (room = 'mh-private');
 create policy "private room can send" on public.messages for insert with check (room = 'mh-private');
 

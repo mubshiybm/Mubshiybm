@@ -72,6 +72,8 @@ The current app stores schedule data, reflections, chat messages, and wedding de
 5. Restart Vite with `npm run dev`.
 
 The React Chat page automatically switches from local mode to realtime mode when both variables are present. Before publishing private conversations, replace the temporary room policies in `supabase/schema.sql` with Supabase Auth-based policies that restrict rows and voice files to the two authenticated users.
+
+The approved app emails are `mubshiybm@gmail.com` and `haleemah@gmail.com`. The current client gate requires one of those emails plus the shared password; production access should enforce the same allowlist with Supabase Auth policies.
 =======
 ## Hi there 👋
 
