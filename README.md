@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # M & H
 
 A React/Vite personal planner for study, prayer, meals, rest, reflection, wedding countdowns, and private local chat.
@@ -13,13 +14,6 @@ npm run dev
 
 Open the local URL printed by Vite. The app routes are:
 
-- `/login`
-- `/today`
-- `/week`
-- `/story`
-- `/our-day`
-- `/chat`
-- `/settings`
 
 The shared password is configured in `src/App.jsx`. For a real public deployment, replace the client-only gate with server-side authentication before sharing private information.
 
@@ -78,3 +72,21 @@ The current app stores schedule data, reflections, chat messages, and wedding de
 5. Restart Vite with `npm run dev`.
 
 The React Chat page automatically switches from local mode to realtime mode when both variables are present. Before publishing private conversations, replace the temporary room policies in `supabase/schema.sql` with Supabase Auth-based policies that restrict rows and voice files to the two authenticated users.
+=======
+## Hi there 👋
+
+<!--
+**mubshiybm/Mubshiybm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> origin/main
